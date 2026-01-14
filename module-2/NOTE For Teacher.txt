@@ -1,0 +1,3 @@
+The book says to have <meta http-equiv="author" content="Matthew Rozendaal" />
+When I put it through the HTML checker from Module 1 it said that "http-equiv" is not valid. I included a screenshot of the error in the module folder. The example is named "HttpEquivAuthor Error".
+I chose to follow what the HTML checker told me is wrong compared to leaving it the way the book told us to.
