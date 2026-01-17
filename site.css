@@ -1,0 +1,39 @@
+/* #container 
+Set the top margin to 50px
+Set the left margin to 100px
+Set the right margin to 100px
+*/
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*
+Set the h1, h2, h3, and h4 tags each to a background color 
+a font color that can be readily viewed with the background color,
+a border of 1px solid and #D6A800,
+and padding of 10px
+*/
+h1,
+h2,
+h3,
+h4 {
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #357ABD;
+}
+
+a:visited {
+    color: #2C5AA0;
+}
