@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+}
+
+.left,
+.right {
+    width: 45%;
+}
+
+
+.left {
+    float: left;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+.right {
+    float: right;
+    border: 1px dashed red;
+    border-radius: 15px;
+}
+
+.middle {
+    width: 100%;
+    margin-top: 60%;
+}
+
+.bottom {
+    float: right;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol,
+ul {
+    font-weight: 300;
+}
+
+
+ol {
+    padding: 10px;
+    list-style-position: inside;
+}
+
+
+ul {
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
