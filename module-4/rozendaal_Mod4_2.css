@@ -31,9 +31,5 @@ figcaption {
 .bottom {
     float: right;
     margin-bottom: 20px;
-}
-
-.middle {
-    width: 100%;
-    margin-top: 10%;
+    margin-top: 2em;
 }
