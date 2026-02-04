@@ -6,3 +6,14 @@ Visualization
 The visual example I chose for this is a short couple-minute video explaining how trying to multitask does not work. It bascially sums up the book and the point I tried to make above very nicely.
 
 https://www.youtube.com/watch?v=tMiyzuO1qMs
+
+
+
+Topic 50: People are Motivated as they get Closer to a Goal
+Embellishment:
+	People are motivated not just by the goal itself, but also by the journey to get there. Many people have a tough time just setting a goal and doing it. If you can achieve the goal right away, you are setting steps toward an end goal, but not actually setting a goal. Goals should be slightly unattainable but also have a clear path to achieving them. Setting the goal timeline aggressively puts pressure on you to actually work on the steps instead of waiting till the last minute.
+
+Visualization:
+	I chose this because it is an excellent video on how to structure goals and make them attainable. The person who created this does such a good job of simplifying the process of setting goals and getting to the goal. We can use this process as well, to help set our users up for success to attain a goal through the steps.
+
+https://youtu.be/PCRSVRD2EAk?si=LW2LjN7UNk1PGbRb
