@@ -1,4 +1,3 @@
-
 /* 
 header element
 Select an appropriate background color
@@ -27,7 +26,7 @@ Set the overflow to hidden
 Select an appropriate background color
 Set the bottom border to a solid 15px with an appropriate color
 */
-navbar {
+#navbar {
     overflow: hidden;
     background-color: #333;
     border-bottom: solid 15px #4CAF50;
@@ -42,7 +41,7 @@ Center the text
 Give it a padding of “14px 16px”
 Remove the underline 
 */
-navbar a {
+#navbar a {
     float: left;
     display: block;
     color: white;
@@ -56,7 +55,7 @@ navbar a:hover
 Select an appropriate background color
 Set color to an appropriate color
 */
-navbar a:hover {
+#navbar a:hover {
     background-color: #ddd;
     color: black;
 }
@@ -68,7 +67,7 @@ Set the left margin to 5%
 Set the right margin to 5%
 Give the container a padding of 10px 
 */
-.container div {
+#container div {
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
