@@ -1,0 +1,25 @@
+- General Page Styles:
+  - Header Background will be light gray
+    - F5F5F5
+    - This is AKA the Navigation Header Background
+  - White background for sides of pages
+  - Lighter gray than header
+  - Black text
+  - Baby blue for accents
+    - Boarders
+    - Sections
+    - Horizontal cut offs
+    - Links (Not in Header Navigation)
+- Navigation Header styles/Content
+  - Name will be on the left side
+  - Home, About, Hobbies will be on the right side
+    - This may contract down to Hamburger if screen size is too small
+    - The currently selected page will also have the value in the nav header section be colored to accentuate the current page.
+  - Nav header to be the same size and color scheme for each page
+  - Will have on hover functionality
+- Titles will be H1
+- Subtitles/List items will be H2
+  - Most H2 items will be Anchors as well
+- Pictures
+  - will be maxed at a certain height depending on screen size, ( I am thinking Max 50-70% depending on what looks best when I create it.)
+  - Min size will be 10-25% of screen size
