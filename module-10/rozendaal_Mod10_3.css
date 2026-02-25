@@ -1,0 +1,85 @@
+/*Set the HTML and body font size to 16px */
+html,
+body {
+    font-size: 16px;
+}
+
+/*Give the paragraph text a weight of 400 
+  Give the text in the paragraphs a line-height of 1.4em */
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+/* Give the h1 a weight of 700 
+   Make the h1 uppercase and center the text */
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Give the h2 a weight of 500 
+  Give the h2 alignment to the left, and a top padding of 15px */
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+}
+
+/*Give the address a text alignment of center */
+address {
+    text-align: center;
+}
+
+/*Make the website URL bold with a font-size of 1.25em, font color of #4F3674, and remove the underline */
+a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+/* Apply rules to the hover and visited pseudo classes for the website link 
+   give it a background color of #D6A800; */
+a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+a:visited {
+    color: #7B5E99;
+}
+
+/* Apply a font-style of italic to the CSS sentence class */
+.sentence {
+    font-style: italic;
+}
+
+/*Give the CSS “intro” class a text-indent of 2em */
+.intro {
+    text-indent: 2em;
+}
+
+/*Give anything in the Span element a background color of #D6A800 and a font color of white */
+span {
+    background-color: #D6A800;
+    color: white;
+}
+
+.fade-image {
+    opacity: 1;
+    transition: opacity 0.35s ease;
+}
+
+.fade-image.is-hidden {
+    opacity: 0;
+}
+
+#magicImage,
+#spaceImage {
+    width: 500px;
+    height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+}

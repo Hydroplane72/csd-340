@@ -1,0 +1,34 @@
+<!--
+Matthew Rozendaal
+Module 10.3
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Work for Module 10.3">
+    <meta name="keywords" content="CSD340">
+    <meta name="robots" content="nofollow">
+    <meta name="author" content="Matthew Rozendaal">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="rozendaal_Mod10_3.css">
+    <script src="rozendaal_Mod10_3.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Assignment 10.3: JavaScript - Part 2</h1>
+        <h2>Want to see something cool?</h2>
+        <p id="hoverText" onmouseover="showMagic()" onmouseout="hideMagic()">Hover over me to see some magic.</p>
+        <img id="magicImage" src="MagicPhoto.jpg" alt="Magic Image" style="display:none;">
+
+        <p>Click the image below to see something else.</p>
+        <img src="Space.webp" alt="Space Image" id="spaceImage" onclick="changeImage()">
+
+        <p><a href="../index.html">Back to
+                Portal Page</a></p>
+    </div>
+</body>
+
+</html>
