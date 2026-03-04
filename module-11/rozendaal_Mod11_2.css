@@ -1,0 +1,196 @@
+/* Matthew Rozendaal - Module 11.2 */
+
+#container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #555;
+}
+
+.hint {
+    background-color: #fff9e6;
+    border-left: 4px solid #ffc107;
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-size: 14px;
+    font-style: italic;
+    color: #856404;
+    border-radius: 4px;
+}
+
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#myInput {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    flex-basis: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#deleteButton {
+    background-color: #f44336;
+}
+
+#deleteButton:hover {
+    background-color: #da190b;
+}
+
+#sortButton {
+    background-color: #2196F3;
+}
+
+#sortButton:hover {
+    background-color: #0b7dda;
+}
+
+.list-section {
+    margin-top: 30px;
+}
+
+.list-section h2 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #888;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
+    transition: background-color 0.2s ease;
+}
+
+.toggle-btn:hover {
+    background-color: #666;
+}
+
+#myList,
+#completedList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    min-height: 50px;
+    max-height: 1000px;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+}
+
+#myList.collapsed,
+#completedList.collapsed {
+    max-height: 0;
+    min-height: 0;
+    opacity: 0;
+    margin-top: 0;
+}
+
+#myList li,
+#completedList li {
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.active-item:hover {
+    background-color: #e8f4ff;
+    border-color: #2196F3;
+    transform: translateX(5px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.completed-item {
+    background-color: #f0f0f0 !important;
+    opacity: 0.8;
+}
+
+.completed-item:hover {
+    background-color: #fff3cd !important;
+    border-color: #ffc107;
+    transform: translateX(-5px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
+
+.completed-item .item-text {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.item-text {
+    flex-grow: 1;
+    cursor: pointer;
+    user-select: none;
+}
+
+.delete-item-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #ff6b6b;
+    margin-left: 10px;
+}
+
+.delete-item-btn:hover {
+    background-color: #ee5555;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

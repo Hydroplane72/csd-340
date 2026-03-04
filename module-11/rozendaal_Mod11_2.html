@@ -1,0 +1,55 @@
+<!--
+Matthew Rozendaal
+Module 11.2
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Work for Module 11.2">
+    <meta name="keywords" content="CSD340">
+    <meta name="robots" content="nofollow">
+    <meta name="author" content="Matthew Rozendaal">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="rozendaal_Mod11_2.css">
+    <script src="rozendaal_Mod11_2.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Assignment 11.2: JavaScript - Part 3</h1>
+        <h2>TO DO LIST</h2>
+        <p>Use the input field and buttons to add, delete, and sort items in the To Do list.
+            Click on an item to mark it as completed and move it to the Completed list.
+            Use the toggle buttons to show or hide each list.</p>
+        <p class="hint">Duplicate items are not allowed.</p>
+        <div class="controls">
+            <input type="text" id="myInput" placeholder="Enter text here">
+            <button id="addButton">Add</button>
+            <button id="deleteButton">Delete Last Entry</button>
+            <button id="sortButton">Sort</button>
+        </div>
+
+        <div class="list-section">
+            <h2>
+                To Do
+                <button class="toggle-btn" id="toggleTodo">▼</button>
+            </h2>
+            <ul id="myList"></ul>
+        </div>
+
+        <div class="list-section">
+            <h2>
+                Completed
+                <button class="toggle-btn" id="toggleCompleted">▼</button>
+            </h2>
+            <ul id="completedList"></ul>
+        </div>
+
+        <p><a href="../index.html">Back to
+                Portal Page</a></p>
+    </div>
+</body>
+
+</html>
