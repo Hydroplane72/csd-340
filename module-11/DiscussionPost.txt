@@ -1,0 +1,27 @@
+Topic #85 - People will Always Make Mistakes; There is no Fail-Safe Product
+Embellishment
+I wanted to talk about this topic because it is something very dear to me. I am one of those people who agonize over which status code to return for API responses based on the exception being thrown. One of my favorites when dealing with internal APIs that, while important, are not super visible is to return status code 418, "I'm a teapot". Now, with that said, I will always give something a bit more than "I'm a teapot" in the actual message returned. I find it fun to make people laugh when they see something I did.
+
+
+
+Visual
+This video does a decent job of showing how you can layer your error handling. The speaker also does a decent job of describing the pros and cons of each layer. 
+
+https://www.youtube.com/watch?v=HQTYzNZwERo
+
+
+
+
+
+Topic 93 - People Think Choice Equals Control
+Embellishment
+This is a hot topic at my work, actually. For many years, we have not allowed agents much choice in how they do their work. Over time, this has caused issues, and agents have instead found workarounds that, in our opinion, were worse than the choice they were denied. An example of that is assistants. Until recently, Agents below Regional Directors were not allowed to have an official assistant to help them with their day-to-day work. What agents ended up doing was credential sharing and under-the-table hiring of random people from the street to help them, giving them the option of going through the Office Assistant program to hire someone officially. Agents are no longer sharing passwords with others, and we can more easily shut down access to the OA without completely stranding the Representative.
+
+
+
+Visualization
+I intentionally found a shorter video that talks about choice and how you can make decisions by scoring different categories to determine whether you should actually take an action. Relating this to the class, instead of just giving your users a choice. Sometimes it is better to lead them down a road based on other factors within user control. It allows your program to "think" more effectively and potentially follow their thought processes more closely.
+
+
+
+https://www.instagram.com/reel/DCkdml4yO1v/
